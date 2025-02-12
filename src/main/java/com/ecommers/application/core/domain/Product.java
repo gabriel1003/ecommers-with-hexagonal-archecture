@@ -6,16 +6,16 @@ public class Product {
 
     private UUID id;
     private String name;
-    private double value;
+    private double price;
     private int quantity;
 
     public Product() {
     }
 
-    public Product(UUID id, String name, double value, int quantity) {
+    public Product(UUID id, String name, double price, int quantity) {
         this.id = id;
         this.name = name;
-        this.value = value;
+        this.price = price;
         this.quantity = quantity;
     }
 
@@ -27,8 +27,8 @@ public class Product {
         return name;
     }
 
-    public double getValue() {
-        return value;
+    public double getPrice() {
+        return price;
     }
 
     public int getQuantity() {
@@ -43,8 +43,8 @@ public class Product {
         this.name = name;
     }
 
-    public void setValue(double value) {
-        this.value = value;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public void setQuantity(int quantity) {
