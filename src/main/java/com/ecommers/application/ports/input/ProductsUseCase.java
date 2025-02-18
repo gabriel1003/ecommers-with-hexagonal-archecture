@@ -4,7 +4,7 @@ import com.ecommers.application.core.domain.Product;
 
 import java.util.UUID;
 
-public interface ProductsUseCases {
+public interface ProductsUseCase {
     Product createProduct(Product product);
 
     Product updateProduct(UUID id, Product product);
