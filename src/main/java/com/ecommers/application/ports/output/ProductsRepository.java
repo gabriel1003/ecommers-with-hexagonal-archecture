@@ -7,7 +7,7 @@ import java.util.UUID;
 
 public interface ProductsRepository {
 
-    List<Product> findAll();
+    List<Product> findAll(Integer page, Integer pageSize);
 
     Product findById(UUID id);
 
