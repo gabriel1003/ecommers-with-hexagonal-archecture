@@ -27,8 +27,7 @@ public class ProductServiceAdapter implements ProductsRepository {
     ProductEntityToProductMapper productEntityToProductMapper;
 
     @Inject
-    ProductDTOToProductMapper
-
+    ProductDTOToProductMapper productDTOToProductMapper;
 
     @Override
     @Transactional
